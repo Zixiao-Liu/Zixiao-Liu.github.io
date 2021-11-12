@@ -1,17 +1,160 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Zixiao's website</title>
-  </head>
-  <body>
-    <h1>Welcome to Zixiao's website</h1>
-    <p>Here is the body of the website!</p>
+<head>
+<meta charset="utf-8"> 
+<title>Zixiao's website</title> 
+<style>
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.header {
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0%;
     
-    <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics#anatomy_of_an_html_element">link to html document!</a>
+    width: 100%;
+}
+.topmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #777;
+    position: sticky;
+    top: 0%;
+}
+.topmenu li {
+    float: left;
+}
+.topmenu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.topmenu li a:hover {
+    background-color: #222;
+}
+.topmenu li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.topmenu li a.active:hover {
+    color: white;
+    background-color: #050505;
+}
+.column {
+    float: left;
+    padding: 15px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.content_bottom
+{
+    margin-bottom: 28px;
+}
+.sidemenu {
+    width: 15%;
+    position:sticky;
+    top:55px;
     
-    <p>end of body</p>
-    <img src="image/image1.jpeg" alt="My test image" width="300" height="250" title="image1">
-  </body>
-</html>
+}
+.content {
+    width: 85%;
+    
+}
+.sidemenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sidemenu li a {
+    margin-bottom: 4px;
+    display: block;
+    padding: 8px;
+    background-color: #eee;
+    text-decoration: none;
+    color: #666;
+}
+.sidemenu li a:hover {
+    background-color: #555;
+    color: white;
+}
+.sidemenu li a.active {
+    background-color: #008CBA;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<ul class="topmenu">
+  <li><a href="#home" class="active">主页</a></li>
+  <li><a href="#news">项目</a></li>
+  <li><a href="#contact">关于</a></li>
+  <li><a href="#contact">联系</a></li>
+  <li style="float:right;"><a href="#about">QAQ</a></li>
+</ul>
+
+<div class="clearfix content_bottom">
+  <div class="column sidemenu">
+    <ul>
+      <li><a href="#flight">Blog</a></li>
+      <li><a href="#city">item</a></li>
+      <li><a href="#island">item</a></li>
       
+    </ul>
+  </div>
+
+  <div class="column content">
+    <div class="header">
+      <h1>BLOG</h1>
+    </div>
+    <h1>Chania</h1>
+    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>You will learn more about responsive web pages in a later chapter.</p><br/><br/><br/><br/>
+    <p>fjdlsjls</p>
+    <p>fjdlsjflsjfl</p>
+    <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>You will learn more about responsive web pages in a later chapter.</p><br/><br/><br/><br/>
+    <p>fjdlsjls</p>
+    <p>fjdlsjflsjfl</p>  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>You will learn more about responsive web pages in a later chapter.</p><br/><br/><br/><br/>
+    <p>fjdlsjls</p>
+    <p>fjdlsjflsjfl</p>  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>You will learn more about responsive web pages in a later chapter.</p><br/><br/><br/><br/>
+    <p>fjdlsjls</p>
+    <p>fjdlsjflsjfl</p>  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>You will learn more about responsive web pages in a later chapter.</p><br/><br/><br/><br/>
+    <p>fjdlsjls</p>
+    <p>fjdlsjflsjfl</p>  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>You will learn more about responsive web pages in a later chapter.</p><br/><br/><br/><br/>
+    <p>fjdlsjls</p>
+    <p>fjdlsjflsjfl</p>  <p>Chania is the capital of the Chania region on the island of Crete. The city can be divided in two parts, the old town and the modern city.</p>
+    <p>You will learn more about responsive web pages in a later chapter.</p><br/><br/><br/><br/>
+    <p>fjdlsjls</p>
+    <p>fjdlsjflsjffdsfsdfsl</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p style="margin: 12px;">版权   @Zixiao-Liu.github.io</p>
+</div>
+
+</body>
+</html>
